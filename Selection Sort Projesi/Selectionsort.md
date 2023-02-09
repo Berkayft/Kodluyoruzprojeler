@@ -1,10 +1,10 @@
 # Selection Sort Projesi
 ## Verilen diziyi sıralama
-(22,27,16,2,18,6) dizisini Insertion sort yöntemiyle sıralayalım.
-1'inci adımın sonucu -> (2,27,16,22,18,6) bu adımda önce tek tek en küçüğü bulana kadar sayıları tarıyoruz soldan başlayarak. 2'nin en küçük olduğunu anladıktan sonra 22 ile yer değiştiriyoruz. 
-2'nci adımın sonucu ->  (2,6,16,22,18,27) artık 27 den başlayıp 6 ya doğru en küçük elemanı arayacağız. Sonra da yer değiştireceğiz.
-3'üncü adımın sonucu -> (2,6,16,22,18,27) bu adımda bir değişiklik olmamış gibi gözükebilir ama 16 dan başlayıp 27 ye kadar sorgu yaptık sadece ilk başladığımız en küçük olduğu için değişim gözükmedi.
-4'üncü adımın sonucu -> (2,6,16,18,22,27) burda 22 den başlayıp 27 ye kadar tarama yaptık. 
+(22,27,16,2,18,6) dizisini Insertion sort yöntemiyle sıralayalım.   
+1'inci adımın sonucu -> (2,27,16,22,18,6) bu adımda önce tek tek en küçüğü bulana kadar      sayıları tarıyoruz soldan başlayarak. 2'nin en küçük olduğunu anladıktan sonra 22 ile yer değiştiriyoruz.      
+2'nci adımın sonucu ->  (2,6,16,22,18,27) artık 27 den başlayıp 6 ya doğru en küçük elemanı arayacağız. Sonra da yer değiştireceğiz.    
+3'üncü adımın sonucu -> (2,6,16,22,18,27) bu adımda bir değişiklik olmamış gibi gözükebilir ama 16 dan başlayıp 27 ye kadar sorgu yaptık sadece ilk başladığımız en küçük olduğu için değişim gözükmedi.        
+4'üncü adımın sonucu -> (2,6,16,18,22,27) burda 22 den başlayıp 27 ye kadar tarama yaptık.      
 5'inci adımın sonucu -> (2,6,16,18,22,27) 3. adımdaki durumla aynısı burda da olmuş tarama yaptık ama bir değişim gerçekleşmedi ilk eleman en küçük diye.
 ***************
 ## Verilen dizinin Big-O natation'unun hesaplanması
